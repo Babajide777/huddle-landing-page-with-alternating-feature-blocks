@@ -13,6 +13,10 @@ body{
     font-size: ${({ theme }) => theme.fontSize.p};
     font-weight: ${({ theme }) => theme.fontWeight.small};
     font-family: ${({ theme }) => theme.fontFamily.poppins};
+    #root{
+      max-width: 100%;
+      /* width: 100% */
+    }
 }
 
 img{

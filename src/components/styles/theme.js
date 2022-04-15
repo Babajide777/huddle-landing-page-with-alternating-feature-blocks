@@ -4,6 +4,8 @@ const theme = {
     veryPaleCyan: "hsl(193, 100%, 96%)",
     veryDarkCyan: "hsl(192, 100%, 9%)",
     grayishBlue: "hsl(208, 11%, 55%)",
+    white: "#FFF",
+    black: "#000",
   },
   fontFamily: {
     openSans: "'Open Sans', sans-serif",
