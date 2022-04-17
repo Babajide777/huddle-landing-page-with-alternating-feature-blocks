@@ -1,10 +1,12 @@
 import React from "react";
 import ButtonStyled from "./styles/ButtonStyled";
 
-const Button = ({ children, bg }) => {
+const Button = ({ children, bg, color }) => {
   return (
     <>
-      <ButtonStyled bg={bg}>{children}</ButtonStyled>
+      <ButtonStyled color={color} bg={bg}>
+        {children}
+      </ButtonStyled>
     </>
   );
 };

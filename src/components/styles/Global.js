@@ -12,15 +12,19 @@ const GlobalStyles = createGlobalStyle`
 body{
     font-size: ${({ theme }) => theme.fontSize.p};
     font-weight: ${({ theme }) => theme.fontWeight.small};
-    font-family: ${({ theme }) => theme.fontFamily.poppins};
+    font-family: ${({ theme }) => theme.fontFamily.openSans};
+    color: ${({ theme }) => theme.color.veryDarkCyan};
     #root{
       max-width: 100%;
-      /* width: 100% */
+      width: 100%
     }
 }
 
 img{
     width: 100%
+}
+h1,h2{
+      font-family: ${({ theme }) => theme.fontFamily.poppins};
 }
 
 `;

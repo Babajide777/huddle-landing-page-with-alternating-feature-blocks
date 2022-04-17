@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <NavStyled>
       <img src={Logo} alt="Logo" />
-      <Button bg={theme.color.white} color="black">
+      <Button color={theme.color.veryDarkCyan} bg={theme.color.white}>
         Try It Free
       </Button>
     </NavStyled>
