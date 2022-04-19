@@ -8,11 +8,17 @@ const ForthFoot = () => {
   return (
     <ForthFootStyled>
       <div className="socials">
-        <RiFacebookFill></RiFacebookFill>
-        <FaTwitter></FaTwitter>
-        <BsInstagram></BsInstagram>
+        <div>
+          <RiFacebookFill></RiFacebookFill>
+        </div>
+        <div>
+          <FaTwitter></FaTwitter>
+        </div>
+        <div>
+          <BsInstagram></BsInstagram>
+        </div>
       </div>
-      &copy; Copyright 2018 Huddle. All rights reserved.
+      <span>&copy; Copyright 2018 Huddle. All rights reserved.</span>
     </ForthFootStyled>
   );
 };

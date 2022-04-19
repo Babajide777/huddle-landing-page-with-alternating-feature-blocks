@@ -8,7 +8,7 @@ const ProfileStyled = styled.div`
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 600px;
+  height: 550px;
   justify-content: space-between;
   div {
     margin-top: -50px;

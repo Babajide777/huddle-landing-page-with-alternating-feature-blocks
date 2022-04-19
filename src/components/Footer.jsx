@@ -9,7 +9,7 @@ import ForthFoot from "./ForthFoot";
 const Footer = () => {
   return (
     <FooterStyled>
-      <img src={Logo} alt="Logo" />
+      <img src={Logo} alt="Logo" className="logo" />
       <div>
         <FirstFoot></FirstFoot>
         <SecondFoot></SecondFoot>

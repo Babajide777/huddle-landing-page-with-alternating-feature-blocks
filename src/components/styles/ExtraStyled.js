@@ -10,12 +10,16 @@ const ExtraStyled = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
+  top: 4rem;
+  z-index: 2;
+  background-color: ${({ theme }) => theme.color.white};
   h2 {
     font-size: 1.2rem;
   }
 
   button {
-    padding: 1rem 3.5rem;
+    padding: 1rem 3rem;
   }
 `;
 
