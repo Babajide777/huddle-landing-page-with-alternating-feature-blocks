@@ -7,7 +7,9 @@ const Extra = () => {
   return (
     <ExtraStyled>
       <h2>Ready To Build Your Community?</h2>
-      <Button bg={theme.color.pink}>Get Started For Free</Button>
+      <Button bg={theme.color.pink} color={theme.color.white}>
+        Get Started For Free
+      </Button>
     </ExtraStyled>
   );
 };
