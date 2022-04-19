@@ -7,6 +7,7 @@ const HeroTextStyled = styled.div`
   p {
     margin-bottom: 2rem;
     line-height: 1.8rem;
+    opacity: 0.8;
   }
   button {
     padding: 0.8rem 18%;
