@@ -21,6 +21,12 @@ const ForthFootStyled = styled.div`
   span {
     font-size: 0.9rem;
   }
+
+  @media screen and (min-width: 481px) {
+    .socials {
+      justify-content: flex-start;
+    }
+  }
 `;
 
 export default ForthFootStyled;

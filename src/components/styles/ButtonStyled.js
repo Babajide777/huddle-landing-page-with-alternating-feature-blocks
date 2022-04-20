@@ -8,6 +8,10 @@ const ButtonStyled = styled.button`
   box-shadow: 0 5px 10px -6px #3e3c49;
   font-weight: ${({ theme }) => theme.fontWeight.semiBold};
   padding: 0.5rem 1.3rem;
+
+  &:hover {
+    opacity: 0.5;
+  }
 `;
 
 export default ButtonStyled;

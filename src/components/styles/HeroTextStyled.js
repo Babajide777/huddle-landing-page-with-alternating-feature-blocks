@@ -13,6 +13,18 @@ const HeroTextStyled = styled.div`
     padding: 0.8rem 18%;
     margin-bottom: 3rem;
   }
+
+  @media screen and (min-width: 481px) {
+    margin-top: 4rem;
+    text-align: left;
+    h1 {
+      padding-right: 5rem;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
 `;
 
 export default HeroTextStyled;

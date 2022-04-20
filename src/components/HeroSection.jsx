@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <HeroSectionStyled>
       <HeroText></HeroText>
-      <img src={Mockups} alt="" />
+      <img src={Mockups} alt="mockup" />
     </HeroSectionStyled>
   );
 };

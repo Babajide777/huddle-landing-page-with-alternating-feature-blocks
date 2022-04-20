@@ -19,6 +19,20 @@ const ProfileStyled = styled.div`
   p {
     opacity: 0.6;
   }
+
+  @media screen and (min-width: 481px) {
+    padding-left: 5rem;
+    flex-direction: row;
+    gap: 8rem;
+    height: 450px;
+    div {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+    }
+  }
 `;
 
 export default ProfileStyled;

@@ -9,6 +9,12 @@ const NavStyled = styled.nav`
   img {
     width: 30%;
   }
+
+  @media screen and (min-width: 481px) {
+    img {
+      width: 15%;
+    }
+  }
 `;
 
 export default NavStyled;

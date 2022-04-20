@@ -18,6 +18,17 @@ const FooterStyled = styled.footer`
   ul {
     list-style: none;
   }
+  @media screen and (min-width: 481px) {
+    padding-left: 5%;
+    padding-right: 5%;
+    .logo {
+      width: 12%;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 `;
 
 export default FooterStyled;

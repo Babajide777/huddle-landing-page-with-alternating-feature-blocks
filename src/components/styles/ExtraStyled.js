@@ -21,6 +21,18 @@ const ExtraStyled = styled.div`
   button {
     padding: 1rem 3rem;
   }
+
+  @media screen and (min-width: 481px) {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 220px;
+    h2 {
+      font-size: 1.5rem;
+    }
+    button {
+      padding: 1rem 4rem;
+    }
+  }
 `;
 
 export default ExtraStyled;
