@@ -14,7 +14,7 @@ const HeroTextStyled = styled.div`
     margin-bottom: 3rem;
   }
 
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     margin-top: 4rem;
     text-align: left;
     h1 {

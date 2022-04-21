@@ -20,7 +20,7 @@ const ProfileStyled = styled.div`
     opacity: 0.6;
   }
 
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     padding-left: 5rem;
     flex-direction: row;
     gap: 8rem;

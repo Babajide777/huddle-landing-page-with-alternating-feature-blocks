@@ -6,31 +6,17 @@ const MidSectionStyled = styled.section`
   padding-top: 4rem;
   padding-bottom: 2rem;
 
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     padding-top: 8rem;
     padding-left: 6rem;
     padding-right: 6rem;
 
-    div:first-of-type {
-      img {
-        order: 2;
-      }
-    }
-
+    div:first-of-type,
     div:last-of-type {
       img {
         order: 2;
       }
     }
-
-    /* div:nth-last-child() {
-      img {
-        order: 2;
-      }
-    } */
-
-    /* div:nth-of-type(3) {
-    } */
   }
 `;
 

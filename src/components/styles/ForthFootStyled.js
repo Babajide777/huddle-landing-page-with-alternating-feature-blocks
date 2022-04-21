@@ -22,7 +22,7 @@ const ForthFootStyled = styled.div`
     font-size: 0.9rem;
   }
 
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     .socials {
       justify-content: flex-start;
     }

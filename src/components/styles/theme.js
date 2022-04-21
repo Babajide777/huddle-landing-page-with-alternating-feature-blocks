@@ -19,7 +19,7 @@ const theme = {
     semiBold: 600,
     bold: 700,
   },
-  mobile: "481px",
+  mobile: "600px",
 };
 
 export default theme;

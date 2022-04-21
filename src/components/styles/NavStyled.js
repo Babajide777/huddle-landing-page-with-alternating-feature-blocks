@@ -10,7 +10,7 @@ const NavStyled = styled.nav`
     width: 30%;
   }
 
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     img {
       width: 15%;
     }

@@ -16,12 +16,14 @@ const FirstFootStyled = styled.div`
       height: 5%;
     }
   }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     display: flex;
     flex-direction: column;
     div {
       justify-content: flex-start;
       align-items: flex-start;
+      margin: 0;
+      padding: 0;
     }
 
     div:nth-of-type(1) {
@@ -29,9 +31,6 @@ const FirstFootStyled = styled.div`
         width: 8%;
         height: 30%;
       }
-    }
-
-    div:nth-of-type(1) {
       p {
         width: 20rem;
       }

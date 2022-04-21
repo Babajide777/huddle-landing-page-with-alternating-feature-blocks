@@ -18,7 +18,7 @@ const FooterStyled = styled.footer`
   ul {
     list-style: none;
   }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     padding-left: 5%;
     padding-right: 5%;
     .logo {

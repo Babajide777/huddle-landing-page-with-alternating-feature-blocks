@@ -22,7 +22,7 @@ const ExtraStyled = styled.div`
     padding: 1rem 3rem;
   }
 
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
     margin-left: 25%;
     margin-right: 25%;
     height: 220px;

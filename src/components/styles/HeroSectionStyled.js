@@ -7,9 +7,11 @@ const HeroSectionStyled = styled.div`
   justify-content: center;
   padding-left: 2rem;
   padding-right: 2rem;
-  @media screen and (min-width: 481px) {
-    flex-direction: row;
-    gap: 3rem;
+  @media screen and (min-width: ${({ theme }) => theme.mobile}) {
+    gap: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 `;
 
